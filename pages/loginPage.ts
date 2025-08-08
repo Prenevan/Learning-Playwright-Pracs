@@ -1,12 +1,13 @@
 import { Page } from "@playwright/test";
 //The class
+//Export is used to share the info with the login.test.ts page
 export default class LoginPage {
 
     //Webpage we creating this for https://ecommerce-playground.lambdatest.io/index.php?route=account/login
     //The constructor which allows us to use page. in the functions. Page is like driver in selenium
     constructor(public page: Page ) { }
 
-    //Creating a function here so that whenever I need to login 
+    //Objects I need for login page
     async login(email: string, password: string) {
         await this.enterEmail(email)
         await this.enterLoginPassword(password)

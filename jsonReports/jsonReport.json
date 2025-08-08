@@ -1,0 +1,261 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\preno.pillay\\Desktop\\learn-playwright\\playwright.config.ts",
+    "rootDir": "C:/Users/preno.pillay/Desktop/learn-playwright",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/preno.pillay/Desktop/learn-playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/preno.pillay/Desktop/learn-playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "addToCartUsingFixture.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.54.1",
+    "workers": 10,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "pomtest\\addToCartUsingFixture.test.ts",
+      "file": "pomtest/addToCartUsingFixture.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Page object demo",
+          "file": "pomtest/addToCartUsingFixture.test.ts",
+          "line": 18,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Register test_01",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10131,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-07T14:15:12.888Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "92fe7589f3cd844569b7-8b869d3d53ed3cd2a1cd",
+              "file": "pomtest/addToCartUsingFixture.test.ts",
+              "line": 21,
+              "column": 9
+            },
+            {
+              "title": "Login test_02 Original",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 8127,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-07T14:15:12.887Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "92fe7589f3cd844569b7-b631f4442d7c058b5742",
+              "file": "pomtest/addToCartUsingFixture.test.ts",
+              "line": 46,
+              "column": 9
+            },
+            {
+              "title": "GivenLogin_WhenNoPasswordSupplied_ThenLoginFail",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 8779,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-07T14:15:12.889Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "92fe7589f3cd844569b7-86471ad4ddbad141e50a",
+              "file": "pomtest/addToCartUsingFixture.test.ts",
+              "line": 64,
+              "column": 9
+            },
+            {
+              "title": "add To Cart test_03",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "timedOut",
+                      "duration": 30560,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\preno.pillay\\Desktop\\learn-playwright\\pages\\megaMenuPage.ts",
+                            "column": 25,
+                            "line": 12
+                          },
+                          "message": "Error: page.hover: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('xpath=(//img[@title=\\'HTC Touch HD\\'])[2]')\u001b[22m\n\u001b[2m    - waiting for\" https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=25\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=25\"\u001b[22m\n\u001b[2m    - locator resolved to <img class=\"lazy-load\" alt=\"HTC Touch HD\" title=\"HTC Touch HD\" src=\"https://ecommerce-playground.lambdatest.io/image/cache/transparent-270x338.webp\" data-sizes=\"(min-width: 1360px) 270px,(min-width: 1024px) 235px,(min-width: 768px) 300px,(min-width: 576px) 300px,200px\" data-src=\"https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/7-270x338.webp\" data-srcset=\"https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/…/>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    33 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39mpages\\megaMenuPage.ts:12\n\n\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[36masync\u001b[39m addFirstProductToTheCart(){\n \u001b[90m 11 |\u001b[39m         \u001b[90m//strict is if there are multiple issues found it will throw an error\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mhover(\u001b[32m\"(//img[@title='HTC Touch HD'])[2]\"\u001b[39m\u001b[33m,\u001b[39m {strict\u001b[33m:\u001b[39m \u001b[36mfalse\u001b[39m})\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 13 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[32m\"(//button[@title='Add to Cart']//i)[1]\"\u001b[39m)\u001b[90m//This is to click on the add to cart after the hover\u001b[39m\n \u001b[90m 14 |\u001b[39m         \u001b[33m.\u001b[39mnth(\u001b[35m0\u001b[39m)\u001b[33m.\u001b[39mclick()\n \u001b[90m 15 |\u001b[39m     }\u001b[0m\n\u001b[2m    at MegaMenuPage.addFirstProductToTheCart (C:\\Users\\preno.pillay\\Desktop\\learn-playwright\\pages\\megaMenuPage.ts:12:25)\u001b[22m\n\u001b[2m    at C:\\Users\\preno.pillay\\Desktop\\learn-playwright\\pomtest\\addToCartUsingFixture.test.ts:98:28\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-07T14:15:12.886Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\preno.pillay\\Desktop\\learn-playwright\\test-results\\pomtest-addToCartUsingFixt-0acd7-ct-demo-add-To-Cart-test-03\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\preno.pillay\\Desktop\\learn-playwright\\test-results\\pomtest-addToCartUsingFixt-0acd7-ct-demo-add-To-Cart-test-03\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\preno.pillay\\Desktop\\learn-playwright\\test-results\\pomtest-addToCartUsingFixt-0acd7-ct-demo-add-To-Cart-test-03\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "92fe7589f3cd844569b7-7450a9c45672071309a7",
+              "file": "pomtest/addToCartUsingFixture.test.ts",
+              "line": 83,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-08-07T14:15:11.887Z",
+    "duration": 32055.479,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
